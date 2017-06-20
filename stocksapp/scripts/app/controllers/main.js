@@ -18,8 +18,8 @@
 				testservice.deletedb($scope.companylist[$scope.testingind].symbol);
 			window.tempresponse=r;
 			$scope.testingind++;
-			if($scope.testingind<300)
-				setTimeout(manage_companies,1500);
+			if($scope.testingind<$scope.companylist.length)
+				setTimeout(manage_companies,100);
 			else
 				alert('Testing done for 300 companies');
 			//alert(r);

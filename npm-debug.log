@@ -1,0 +1,70 @@
+1890 warn enoent ENOENT: no such file or directory, open 'C:\Users\H224678\Documents\Visual Studio 2015\Projects\stocksapp\package.json'
+1891 verbose enoent ENOENT: no such file or directory, open 'C:\Users\H224678\Documents\Visual Studio 2015\Projects\stocksapp\package.json'
+1891 verbose enoent This is most likely not a problem with npm itself
+1891 verbose enoent and is related to npm not being able to find a file.
+1892 warn enoent ENOENT: no such file or directory, open 'C:\Users\H224678\Documents\Visual Studio 2015\Projects\stocksapp\node_modules\jsprim\package.json'
+1893 verbose enoent ENOENT: no such file or directory, open 'C:\Users\H224678\Documents\Visual Studio 2015\Projects\stocksapp\node_modules\jsprim\package.json'
+1893 verbose enoent This is most likely not a problem with npm itself
+1893 verbose enoent and is related to npm not being able to find a file.
+1894 warn stocksapp No description
+1895 verbose If you need help, you may report this error at:
+1895 verbose     <https://github.com/npm/npm/issues>
+1896 warn stocksapp No repository field.
+1897 verbose If you need help, you may report this error at:
+1897 verbose     <https://github.com/npm/npm/issues>
+1898 warn stocksapp No README data
+1899 verbose If you need help, you may report this error at:
+1899 verbose     <https://github.com/npm/npm/issues>
+1900 warn stocksapp No license field.
+1901 verbose If you need help, you may report this error at:
+1901 verbose     <https://github.com/npm/npm/issues>
+1902 warn optional SKIPPING OPTIONAL DEPENDENCY: uws@0.14.5 (node_modules\uws):
+1903 warn optional SKIPPING OPTIONAL DEPENDENCY: uws@0.14.5 install: `node-gyp rebuild > build_log.txt 2>&1 || exit 0`
+1903 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\windows\system32\cmd.exe;C:\Program Files (x86)\scala\bin;C:\Program Files\nodejs\;C:\Ruby21\bin;C:\Program Files (x86)\ sbt\bin ENOENT
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+1904 verbose optional Failed at the uws@0.14.5 install script 'node-gyp rebuild > build_log.txt 2>&1 || exit 0'.
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the uws package,
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild > build_log.txt 2>&1 || exit 0
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs uws
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls uws
+1904 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+1905 warn optional SKIPPING OPTIONAL DEPENDENCY: uws@0.14.5 (node_modules\uws):
+1906 warn optional SKIPPING OPTIONAL DEPENDENCY: uws@0.14.5 install: `node-gyp rebuild > build_log.txt 2>&1 || exit 0`
+1906 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+1907 verbose optional Failed at the uws@0.14.5 install script 'node-gyp rebuild > build_log.txt 2>&1 || exit 0'.
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the uws package,
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild > build_log.txt 2>&1 || exit 0
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs uws
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls uws
+1907 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+1908 verbose stack Error: Callback called more than once.
+1908 verbose stack     at errorHandler (C:\Program Files\nodejs\node_modules\npm\lib\utils\error-handler.js:112:16)
+1908 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:312:7
+1908 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+1908 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+1908 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\and-ignore-errors.js:7:15
+1908 verbose stack     at Function.ls.fromTree (C:\Program Files\nodejs\node_modules\npm\lib\ls.js:112:3)
+1908 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:707:8
+1908 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+1908 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:175:5
+1908 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+1909 verbose cwd C:\Users\H224678\Documents\Visual Studio 2015\Projects\stocksapp
+1910 error Windows_NT 10.0.10586
+1911 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongodb"
+1912 error node v6.10.1
+1913 error npm  v3.10.10
+1914 error Callback called more than once.
+1915 error If you need help, you may report this error at:
+1915 error     <https://github.com/npm/npm/issues>
+1916 verbose exit [ 1, true ]

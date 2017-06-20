@@ -1,0 +1,29 @@
+﻿
+#primary{
+    background:black;
+    color:white;
+}
+.tableheadings{
+background-color:#707070  ;
+color:white;
+}
+#button{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+body {
+   /*http://c8.alamy.com/comp/A18CBA/stock-market-listings-in-newspaper-A18CBA.jpg*/ background-image: url('http://c8.alamy.com/comp/A18CBA/stock-market-listings-in-newspaper-A18CBA.jpg');
+    color:black;
+}
+
+div.splashscreen{
+position: fixed;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    z-index: 100;
+    top: 0;
+    padding-top: 100px;
+
+}
